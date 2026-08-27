@@ -1,0 +1,8 @@
+label,variant,mean_peak_to_baseline_ratio,mean_recovery_offset_days,pct_recovered_within_30d,n_changepoints
+①Chronos,zero-shot,5.5,2.0,100.0,4
+②LSTM,power-only,2.48,3.5,100.0,4
+②LightGBM,power-only,3.16,2.0,100.0,4
+②TFT-lite,power-only,2.52,2.0,100.0,4
+③LSTM,+covariate,2.49,3.75,100.0,4
+③LightGBM,+covariate,3.58,3.5,100.0,4
+③TFT-lite,+covariate,2.43,2.0,100.0,4

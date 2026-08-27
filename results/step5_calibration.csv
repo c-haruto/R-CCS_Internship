@@ -1,0 +1,19 @@
+scenario,policy,q,target_coverage,empirical_coverage
+moderate (r=3),static (no forecast),0.75,0.75,0.7875734010474528
+moderate (r=3),seasonal-naive,0.75,0.75,0.7725757816219647
+moderate (r=3),①Chronos,0.75,0.75,0.7409934930963339
+moderate (r=3),②LightGBM,0.75,0.75,0.7851928265354705
+moderate (r=3),③LightGBM,0.75,0.75,0.7882875734010475
+moderate (r=3),②LSTM,0.75,0.75,0.7698872785829307
+moderate (r=3),③LSTM,0.75,0.75,0.6367149758454106
+moderate (r=3),②TFT-lite,0.75,0.75,0.7867149758454106
+moderate (r=3),③TFT-lite,0.75,0.75,0.8156199677938808
+high-stakes (r=9),static (no forecast),0.9,0.9,0.935089668306618
+high-stakes (r=9),seasonal-naive,0.9,0.9,0.9319949214410411
+high-stakes (r=9),①Chronos,0.9,0.9,0.8785113474051738
+high-stakes (r=9),②LightGBM,0.9,0.9,0.9187430566576734
+high-stakes (r=9),③LightGBM,0.9,0.9,0.9250912553562927
+high-stakes (r=9),②LSTM,0.9,0.9,0.9185990338164252
+high-stakes (r=9),③LSTM,0.9,0.9,0.8381642512077294
+high-stakes (r=9),②TFT-lite,0.9,0.9,0.9087761674718197
+high-stakes (r=9),③TFT-lite,0.9,0.9,0.9229468599033817

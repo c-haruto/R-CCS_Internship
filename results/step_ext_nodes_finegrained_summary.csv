@@ -1,0 +1,16 @@
+model,architecture,variant,horizon_bucket,regime,n,MAE,RMSE,MASE
+chronos_bolt_small_nodes,Chronos-bolt (zero-shot),①zero-shot,overall,overall,12602,14899.096500676698,22141.22024264587,0.7397834131446248
+chronos_bolt_small_nodes,Chronos-bolt (zero-shot),①zero-shot,short_1-24h,stable,7411,13730.523582039274,20280.437296563287,0.6817603738134341
+chronos_bolt_small_nodes,Chronos-bolt (zero-shot),①zero-shot,short_1-24h,transition,2692,13423.178264314532,19124.351932389363,0.6664997861563167
+chronos_bolt_small_nodes,Chronos-bolt (zero-shot),①zero-shot,medium_48-168h,stable,1803,19031.681615546233,27850.54408096753,0.9449782664869064
+chronos_bolt_small_nodes,Chronos-bolt (zero-shot),①zero-shot,medium_48-168h,transition,696,22345.09481992836,32755.017195810346,1.1094988553283134
+lightgbm_info2_nodes,LightGBM,②power-only,overall,overall,12602,16421.39698012702,22256.59418213954,0.8153700532115785
+lightgbm_info2_nodes,LightGBM,②power-only,short_1-24h,stable,7411,15961.457195594125,21818.505660392555,0.7925327070928192
+lightgbm_info2_nodes,LightGBM,②power-only,short_1-24h,transition,2692,15527.191894417994,20198.146479293682,0.7709701736398836
+lightgbm_info2_nodes,LightGBM,②power-only,medium_48-168h,stable,1803,18183.916463892914,24830.26364873334,0.9028842645179496
+lightgbm_info2_nodes,LightGBM,②power-only,medium_48-168h,transition,696,20211.61422821911,26926.43978018808,1.0035653476192523
+lightgbm_info3_nodes,LightGBM,③+covariate,overall,overall,12602,16962.43858274149,22351.5978110724,0.8422343401444936
+lightgbm_info3_nodes,LightGBM,③+covariate,short_1-24h,stable,7411,16057.574845040308,21381.08974653836,0.7973052275451504
+lightgbm_info3_nodes,LightGBM,③+covariate,short_1-24h,transition,2692,17558.557157371757,22290.366043180602,0.8718333586996696
+lightgbm_info3_nodes,LightGBM,③+covariate,medium_48-168h,stable,1803,18014.691632198657,23796.23651222614,0.8944817601396527
+lightgbm_info3_nodes,LightGBM,③+covariate,medium_48-168h,transition,696,21565.860578470678,28096.20144462122,1.0708076120869165

@@ -1,0 +1,6 @@
+changepoint_date,source
+2021-06-15 00:00:00+09:00,multivariate_rbf
+2021-06-15 00:00:00+09:00,power_only_rbf
+2022-04-10 00:00:00+09:00,power_only_rbf
+2022-07-23 00:00:00+09:00,power_only_rbf
+2022-11-08 00:00:00+09:00,power_only_rbf

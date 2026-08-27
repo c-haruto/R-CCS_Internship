@@ -1,0 +1,42 @@
+{
+  "ramp_up_excluded": {
+    "start": "2021-03-01",
+    "end": "2021-04-01",
+    "n_hours": 744,
+    "n_days": 31.0,
+    "changepoints_inside": []
+  },
+  "train": {
+    "start": "2021-04-01",
+    "end": "2023-01-01",
+    "n_hours": 15360,
+    "n_days": 640.0,
+    "changepoints_inside": [
+      "2021-06-15",
+      "2022-04-10",
+      "2022-07-23",
+      "2022-11-08"
+    ]
+  },
+  "valid": {
+    "start": "2023-01-01",
+    "end": "2023-03-01",
+    "n_hours": 1416,
+    "n_days": 59.0,
+    "changepoints_inside": []
+  },
+  "test": {
+    "start": "2023-03-01",
+    "end": "2024-04-25",
+    "n_hours": 10104,
+    "n_days": 421.0,
+    "changepoints_inside": []
+  },
+  "tail_excluded": {
+    "start": "2024-04-25",
+    "end": "2024-05-15",
+    "n_hours": 460,
+    "n_days": 19.2,
+    "changepoints_inside": []
+  }
+}
